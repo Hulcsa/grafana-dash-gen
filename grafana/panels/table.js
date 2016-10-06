@@ -100,7 +100,7 @@ Table.prototype.setTitle = function setTitle(title) {
 
 Table.prototype.addTarget = function addTarget(target) {
     this.state.targets.push({
-        target: target.toString(),
+        measurement: target.toString(),
         hide: target.hide
     });
 };
